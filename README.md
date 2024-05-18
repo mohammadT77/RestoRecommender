@@ -4,3 +4,4 @@ AI-powered recommendation system that uses RAG to analyze and synthesize restaur
 
 References:
 - https://pypi.org/project/googlemaps/
+- https://github.com/googlemaps/google-maps-services-python/blob/master/googlemaps/places.py
