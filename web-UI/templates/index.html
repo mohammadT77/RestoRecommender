@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RestoRecommender</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>RestoRecommender</h1>
+        <div class="chat-box">
+            {% for sender, message in chat_history %}
+                <div class="chat-message">
+                    <div class="{{ 'user-message' if sender == 'user' else 'response-message' }}">{{ message|replace('\n', '<br>')|safe }}</div>
+                </div>
+            {% endfor %}
+        </div>
+        <form action="/chat" method="post">
+            <input type="text" name="user_input" placeholder="Write your message here...">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <footer>
+        <p>Developed by Nila Akbari, Mehran Faraji, Mahshad Golafshan, Hannah Habibi, Shabnam Sattar</p>
+        <p>University of Padova</p>
+    </footer>
+</body>
+</html>

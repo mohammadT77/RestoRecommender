@@ -13,6 +13,7 @@ from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain.storage import LocalFileStore
 from langchain.embeddings import CacheBackedEmbeddings
 from langchain_anthropic import ChatAnthropic
+from langchain_cohere import ChatCohere
 
 import huggingface_hub as hf_hub
 
@@ -28,11 +29,12 @@ ANTHROPIC_API_KEY = getenv('ANTHROPIC_API_KEY')
 LANGCHAIN_API_KEY = getenv('LANGCHAIN_API_KEY')
 LANGCHAIN_ENDPOINT = getenv('LANGCHAIN_ENDPOINT')
 assert LANGCHAIN_API_KEY, "An API key for LangChainSmith is required to be set as <LANGCHAIN_API_KEY>."
+COHERE_API_KEY = getenv('COHERE_API_KEY')
 
 
 PLACES_PATH = "data/places.csv"
 REVIEWS_PATH = "data/reviews.csv"
-LLM_MODEL = "anthropic::claude-3-opus-20240229"
+LLM_MODEL = "cohere::"
 EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
 EMBEDDINGS_CACHE_STORE="./cache/"
 FAISS_REVIEWS_PATH = "faiss_index_euclidean"
@@ -71,8 +73,21 @@ embedding_model = get_hf_embedding_model(EMBEDDING_MODEL_NAME,
 
 def get_anthropic_api_llm(model_name):
   llm = ChatAnthropic(model_name=model_name, anthropic_api_key=ANTHROPIC_API_KEY,)
-
   return llm
+
+def get_cohere_api_llm():
+  llm = ChatCohere()
+  return llm
+
+model_type, _, model_name = LLM_MODEL.partition('::')
+
+# If model type is not set, use anthropic
+if model_name == "":
+    model_type = "cohere"
+if model_type == "anthropic":
+    llm = get_anthropic_api_llm(model_name)
+else:
+    llm = get_cohere_api_llm()
 
 model_type, _, model_name = LLM_MODEL.partition('::')
 llm = get_anthropic_api_llm(model_name)
@@ -108,6 +123,5 @@ review_chain = (
     {"context": reviews_retriever, "question": RunnablePassthrough()}
     | review_prompt_template
     | llm
-    # | StrOutputParser()
+    | StrOutputParser()
 )
-
