@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taipy Chat</title>
+    <script>
+        function setCssPath() {
+            var isLiveServer = window.location.port === '5500'; // Default port for Live Server
+            var cssPath = isLiveServer ? '/static/styles.css' : "{{ url_for('static', filename='styles.css') }}";
+            document.getElementById('css-link').setAttribute('href', cssPath);
+        }
+    </script>
+    <link id="css-link" rel="stylesheet" href="#">
+    <script>setCssPath();</script>
+</head>
+<body>
+    <div class="container">
+        <h1>Taipy Chat</h1>
+        <div class="chat-box">
+            {% if user_input %}
+            <div class="chat-message">
+                <div class="user-message">{{ user_input }}</div>
+            </div>
+            <div class="chat-message">
+                <div class="response-message">{{ response }}</div>
+            </div>
+            {% endif %}
+        </div>
+        <form action="/chat" method="post">
+            <input type="text" name="user_input" placeholder="Write your message here...">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
