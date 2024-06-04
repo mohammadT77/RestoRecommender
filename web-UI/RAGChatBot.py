@@ -1,124 +1,70 @@
-
 from langchain.prompts import (
     PromptTemplate,
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate,
-    ChatPromptTemplate,)
+    ChatPromptTemplate)
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.vectorstores import FAISS
 from langchain.schema.runnable import RunnablePassthrough
 
-
-from langchain.embeddings.huggingface import HuggingFaceEmbeddings
+from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
 from langchain.storage import LocalFileStore
 from langchain.embeddings import CacheBackedEmbeddings
-from langchain_anthropic import ChatAnthropic
-from langchain_cohere import ChatCohere
-
-import huggingface_hub as hf_hub
 
 from os import getenv
 import dotenv
 dotenv.load_dotenv()
 
+GOOGLE_API_KEY = getenv('GOOGLE_API_KEY')
 
-HF_TOKEN = getenv('HF_TOKEN')
-assert HF_TOKEN, "A valid HuggingFace token is required to be set as <HF_TOKEN>."
-hf_hub.login(HF_TOKEN,)
-ANTHROPIC_API_KEY = getenv('ANTHROPIC_API_KEY')
-LANGCHAIN_API_KEY = getenv('LANGCHAIN_API_KEY')
-LANGCHAIN_ENDPOINT = getenv('LANGCHAIN_ENDPOINT')
-assert LANGCHAIN_API_KEY, "An API key for LangChainSmith is required to be set as <LANGCHAIN_API_KEY>."
-COHERE_API_KEY = getenv('COHERE_API_KEY')
-
-
-PLACES_PATH = "data/places.csv"
-REVIEWS_PATH = "data/reviews.csv"
-LLM_MODEL = "cohere::"
-EMBEDDING_MODEL_NAME = "all-MiniLM-L6-v2"
+PLACES_PATH = "data_v2/places.csv"
+REVIEWS_PATH = "data_v2/reviews.csv"
+LLM_MODEL_NAME = "gemini-1.5-flash" #"gemini-pro"
+EMBEDDING_MODEL_NAME = "models/text-embedding-004"
 EMBEDDINGS_CACHE_STORE="./cache/"
-FAISS_REVIEWS_PATH = "faiss_index_euclidean"
+FAISS_REVIEWS_PATH_EUCLIDEAN = "faiss_index_euclidean"
+FAISS_REVIEWS_PATH_COSINE = "faiss_index_cosine"
 FAISS_INDEX_NAME = "index"
 FAISS_DISTANCE_STRATEGY='EUCLIDEAN_DISTANCE'
 
+embedding_model = GoogleGenerativeAIEmbeddings(model=EMBEDDING_MODEL_NAME)
+store = LocalFileStore(EMBEDDINGS_CACHE_STORE)
+embedding_model = CacheBackedEmbeddings.from_bytes_store(embedding_model, store)
 
-### Get device
-try:
-    from torch import cuda
-    device = 'cuda' if cuda.is_available() else 'cpu'
-except ImportError:
-    device = 'cpu'
+vector_db = FAISS.load_local(folder_path=FAISS_REVIEWS_PATH_EUCLIDEAN,
+                             embeddings=embedding_model,
+                             index_name=FAISS_INDEX_NAME,
+                             allow_dangerous_deserialization=True)
 
-def get_hf_embedding_model(embedding_model_name,
-                           cache_embeddings_store,
-                           device='cpu',
-                           normalize_embeddings=False,
-                           ):
-  model_kwargs = {'device': device}
-  encode_kwargs = {'normalize_embeddings': normalize_embeddings} # Set `True` for cosine similarity
-  embedding_model = HuggingFaceEmbeddings(
-      model_name=embedding_model_name,
-      model_kwargs=model_kwargs,
-      encode_kwargs=encode_kwargs
-      )
-  store = LocalFileStore(cache_embeddings_store)
-  embedding_model = CacheBackedEmbeddings.from_bytes_store(
-                    embedding_model, store)
-  return embedding_model
-
-embedding_model = get_hf_embedding_model(EMBEDDING_MODEL_NAME,
-                                         EMBEDDINGS_CACHE_STORE,
-                                         device=device,
-                                         normalize_embeddings=False)
-
-def get_anthropic_api_llm(model_name):
-  llm = ChatAnthropic(model_name=model_name, anthropic_api_key=ANTHROPIC_API_KEY,)
-  return llm
-
-def get_cohere_api_llm():
-  llm = ChatCohere()
-  return llm
-
-model_type, _, model_name = LLM_MODEL.partition('::')
-
-# If model type is not set, use anthropic
-if model_name == "":
-    model_type = "cohere"
-if model_type == "anthropic":
-    llm = get_anthropic_api_llm(model_name)
-else:
-    llm = get_cohere_api_llm()
-
-model_type, _, model_name = LLM_MODEL.partition('::')
-llm = get_anthropic_api_llm(model_name)
+llm = ChatGoogleGenerativeAI(model=LLM_MODEL_NAME)
 
 review_template_str = """
 Your job is to use Google Map restaurants and bars reviews to help people find best places to go for a meal or a drink.
-Use the following information and reviews to answer the questions.
-If you don't know an answer based on the context, say you don't know. Answer context:
+Use the following information and reviews to answer the questions. if the question is not about restaurants,
+then kindly tell the user that you can only provide assistance and answer questions related to restaurants. if the user doesn't mention the city name,
+always assume the user is asking about Padova.
+If the context provided to you does not contain the answer of the question, tell the user that there is no answer in the reviews.
+Answer context:
 {context}
 """
-review_system_prompt = SystemMessagePromptTemplate(
+
+system_prompt = SystemMessagePromptTemplate(
     prompt=PromptTemplate(
         input_variables=["context"], template=review_template_str
     )
 )
 
-review_human_prompt = HumanMessagePromptTemplate(
+human_prompt = HumanMessagePromptTemplate(
     prompt=PromptTemplate(input_variables=["question"], template="{question}")
 )
-messages = [review_system_prompt, review_human_prompt]
+messages = [system_prompt, human_prompt]
 
 review_prompt_template = ChatPromptTemplate(
     input_variables=["context", "question"], messages=messages
 )
 
-vector_db = FAISS.load_local(folder_path=FAISS_REVIEWS_PATH,
-                             embeddings=embedding_model,
-                             index_name=FAISS_INDEX_NAME)
-reviews_retriever = vector_db.as_retriever(search_kwargs={'k': 10,
-                                                        #   'fetch_k': 50,
-                                                          })
+reviews_retriever = vector_db.as_retriever(search_kwargs={'k': 20,})
+
 review_chain = (
     {"context": reviews_retriever, "question": RunnablePassthrough()}
     | review_prompt_template
