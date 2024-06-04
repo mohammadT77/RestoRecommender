@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langsmith
+langchain-google-genai
+Flask
+Flask-Session
+pandas
+faiss-cpu
+dotenv
