@@ -1,0 +1,458 @@
+### PROMPT 1 ###
+
+Use
+the following context to answer questions.
+context:
+{context}
+
+
+
+1. 
+Question: 
+
+Where can I find delicious pizzas?
+
+Answer: 
+
+Here are some highly-rated pizza places based on the provided reviews:
+
+* **New Pizza:** This place is known for its delicious, not-too-thin pizzas with strong flavors. They are also known for their punctual deliveries and friendly delivery staff. 
+* **Officina Della Pizza:** This pizzeria is praised for its exceptional pizzas with quality ingredients and super courteous staff. 
+* **Master Pizza:**  This pizzeria is known for its extremely kind staff, accurate delivery times, and delicious dough.
+* **da Pino Padova:** This pizza restaurant is praised for its warm atmosphere, perfectly cooked pizzas, and generous toppings.
+* **Pizzeria Al Quadrifoglio:** This pizza restaurant is known for its excellent pizza, quick service, and very friendly staff.
+* **Pizzeria Antica Osteria Dazzo:** This restaurant offers amazing pizza with delicious ingredients and friendly, prompt service.
+* **Crazy Pizza:** This pizzeria is praised for its wood-fired oven, fresh products, variety of pizzas and doughs, and kindness of the staff.
+* **pizzeria la poesia:** This pizzeria is known for its delicious pizzas and its humorous owner who speaks English. 
+* **Pizzeria Pin Up:** This pizzeria is praised for its tasty and light dough, quality food, and very kind staff.
+* **Pizzalonga Away Noventa Padovana:** This pizzeria is known for its perfect base, delicious toppings, and excellent service.
+
+To choose the best place for you, consider:
+
+* **Location:**  Are you looking for a place in a specific area?
+* **Price:** Do you prefer inexpensive or moderate pricing?
+* **Type:** Are you looking for a restaurant or a takeaway place?
+* **Delivery:** Do you need delivery? 
+
+
+2. 
+Question: 
+
+Give the name, address and phone number of some good steak houses for a romantic dinner.
+
+Answer: 
+
+Here are a few steak houses that seem perfect for a romantic dinner, based on the reviews and information provided:
+
+* **Ristorante Vecchio Falconiere:**
+    * Address: Via Umberto I, 31, 35122 Padova PD, Italy
+    * Phone: +39 049 656544
+    * Review highlights:  "family run restaurant services food with passion", "owner is so friendly", "cook the steak on table size", "large selection of wine". This sounds like a great place for a special occasion.
+
+* **Osteria BocaBona:**
+    * Address: Str. Pelosa, 4, 35136 Padova PD, Italy
+    * Phone: +39 049 871 3898
+    * Review highlights: "Excellent choice of meats, matured and cooked very well", "Excellent beef steak". This place seems to emphasize quality meat and good cooking.
+
+* **La Fiorentina:**
+    * Address: Via G. Marconi, 123, 35020 Ponte San Nicolò PD, Italy
+    * Phone: +39 049 816 4672
+    * Review highlights: "extremely nice place", "slice of beef cooked to perfection", "tender cut of meat", "excellent Montepulciano". This place seems to have a nice ambiance and a focus on high-quality cuts. 
+
+* **Osteria Nonna Pina:**
+    * Address: Via Roma, 65, 35027 Noventa Padovana PD, Italy
+    * Phone: +39 049 830 6301
+    * Review highlights: "incredibly stylish interior", "outdoor grill", "the most delicious meat I have ever tasted", "beautiful glasses and delicious wine". This place seems to have a good atmosphere and a focus on excellent meat. 
+
+Remember to call ahead to make a reservation! 
+
+
+3. 
+Question: 
+
+Give the name, address and phone number of the some good sandwich places?
+
+Answer: 
+
+Here are some good sandwich places in Padua, based on the provided reviews:
+
+* **Panini e bibite da Sandro e Eugenio:**
+    * Address: Via Cardinale Callegari, 63, 35133 Padova PD, Italy
+    * Phone: +39 339 219 7526
+    * Review Highlights:  One of the best sandwiches in Padua, open late, quality ingredients, good value.
+* **Paninaro:**
+    * Address: Via Messico, 46/53, 35127 Padova PD, Italy
+    * Phone:  (Phone number not available in the provided data)
+    * Review Highlights:  Best sandwich ever, super quality, kind owner, quick service.
+* **DAL BAFFO:**
+    * Address: Corso Stati Uniti, 18, 35127 Padova PD, Italy
+    * Phone:  (Phone number not available in the provided data)
+    * Review Highlights:  Open until 4 am, good food, value for money, fresh sandwiches, unique bistro setting.
+* **Corner:**
+    * Address: Via Cattaro, 20, 35135 Padova PD, Italy
+    * Phone: +39 351 669 4354
+    * Review Highlights:  Fresh, friendly, superb taste, great sandwiches.
+
+**Note:**  Phone numbers are only available for some of the places. 
+
+
+
+4. 
+Question: 
+
+What are the most affordable but high-quality restaurants in City?
+
+Answer:
+
+The context you provided doesn't specify a city, so I can't answer the question about the most affordable high-quality restaurants in that city. 
+
+However, I can tell you that based on the information provided, these restaurants seem to offer good value for money:
+
+* **Ristorante Locanda Munerato:**  This Italian restaurant is rated 4.0 stars and is considered inexpensive. The review says it's the "Best bang for your buck."
+* **Circolo RIST. Giusti:** This restaurant has a fixed menu for 15€, which is considered good value for money. It's described as a good option for eating cheaply and well in an Italian atmosphere.
+* **Le Midi:** This restaurant offers a complete menu for €12.50, which is also considered good value for money. 
+* **Da Pippo:** This Italian restaurant offers a full meal with wine, water, and coffee for 12€.
+* **Pizzeria Sotto Casa:** This pizzeria offers a good pizza and two drinks for 12 euros, which is considered reasonable.
+
+**To find the best restaurants in a specific city, I recommend using a search engine or a restaurant review website like Yelp or TripAdvisor.** You can then filter your results by price and rating to find the most affordable options. 
+
+
+5. 
+Question: 
+
+How can I make a roast beef sandwich at home?
+
+Answer:
+
+The provided text doesn't include a recipe for a roast beef sandwich. It focuses on reviews of various sandwich shops and restaurants in Padova, Italy. 
+
+To find a roast beef sandwich recipe, I recommend searching online for "roast beef sandwich recipe". You'll find many options with different variations, including:
+
+* **Simple roast beef sandwiches:** These might use pre-sliced roast beef from the deli counter.
+* **Homemade roast beef sandwiches:**  These require you to roast the beef yourself, which adds a more complex flavor profile.
+
+Here's a general outline of how to make a roast beef sandwich at home:
+
+1. **Choose your roast:** You can use a pre-sliced roast from the deli counter or roast your own. Popular choices for roast beef sandwiches include top round, chuck roast, or eye of round.
+2. **Roast the beef:**  If you're roasting your own beef, season it with salt, pepper, and any other herbs or spices you like. Roast it in the oven until it reaches the desired level of doneness.
+3. **Slice the beef:** Once the roast is cool enough to handle, slice it thinly against the grain.
+4. **Make your sandwich:** To assemble the sandwich, spread your favorite condiments on your bread (mustard, mayo, horseradish, etc.). Add slices of roast beef, and top with your favorite toppings (lettuce, tomato, onion, cheese, etc.).
+5. **Enjoy!**
+
+You can find many roast beef sandwich recipes online, including step-by-step instructions and helpful tips. 
+
+
+
+6.
+Question: 
+
+What is RAG?
+
+Answer:
+
+The provided text doesn't contain any information about RAG.  RAG is a term commonly used in the context of artificial intelligence and machine learning, and it likely refers to **Retrieval-Augmented Generation**. 
+
+**Retrieval-Augmented Generation (RAG)** is a technique that combines information retrieval with language models. It allows AI systems to:
+
+1. **Retrieve relevant information** from a knowledge base or external sources.
+2. **Use that information** to generate more accurate, informative, and contextually relevant responses. 
+
+For example, a RAG-powered chatbot could access a database of product information and use it to answer customer questions about specific products. 
+
+If you'd like to learn more about RAG, please let me know! 
+
+7. 
+Question: 
+
+Explain Natural Language Processing
+
+Answer: 
+
+Natural Language Processing (NLP) is a branch of Artificial Intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language. It's like teaching computers to "think" and "communicate" in the same way humans do. 
+
+Here's a breakdown:
+
+**What it does:**
+
+* **Understanding Language:** NLP helps computers analyze text and speech to extract meaning, identify patterns, and understand the context. This includes tasks like:
+    * **Text Classification:** Categorizing documents (e.g., spam detection, sentiment analysis).
+    * **Named Entity Recognition:** Identifying and classifying entities like people, places, and organizations.
+    * **Machine Translation:** Converting text from one language to another.
+    * **Speech Recognition:** Converting spoken words into text.
+* **Generating Language:** NLP enables computers to produce human-like text or speech, such as:
+    * **Chatbots:** Conversational AI agents that interact with users.
+    * **Text Summarization:** Generating concise summaries of longer texts.
+    * **Text Generation:** Creating new content, like articles or poems.
+
+**How it works:**
+
+NLP utilizes various techniques from computer science and linguistics, including:
+
+* **Machine Learning:** Training algorithms on large datasets of text and speech to learn patterns and make predictions.
+* **Deep Learning:** Using neural networks to process and understand language in a more complex and human-like way.
+* **Rule-Based Systems:** Defining explicit rules to analyze and manipulate language.
+
+**Applications:**
+
+NLP is used in a wide range of applications, including:
+
+* **Search Engines:** Understanding search queries and delivering relevant results.
+* **Social Media:** Analyzing sentiment, identifying trends, and moderating content.
+* **Customer Service:** Automating customer interactions through chatbots and virtual assistants.
+* **Healthcare:** Processing medical records, analyzing patient data, and providing personalized care recommendations.
+* **Finance:** Detecting fraud, analyzing market trends, and providing investment advice.
+
+**In short, NLP is the bridge between human language and the digital world, enabling computers to understand and interact with us in a meaningful way.**
+
+
+
+
+### PROMPT 2 ###
+
+Your job is to use Google Map
+reviews to answer questions about their experience at a restaurant. Use
+the following context to answer questions. provide a brief answer. If you don't know
+an answer based on the context, say user to search online:
+{context}
+
+
+1. 
+Question: 
+
+Where can I find delicious pizzas?
+
+Answer: 
+The reviews mention several places with delicious pizzas:
+
+* **New Pizza:**  Reviewers rave about the delicious pizza, strong flavors, and punctuality of deliveries.
+* **Officina Della Pizza:**  Reviewers highlight the exceptional pizzas with quality ingredients and the courteous staff.
+* **Master Pizza:**  Reviewers praise the delicious dough, kind staff, and hot, steaming pizzas.
+* **da Pino Padova:**  Reviewers highlight the perfectly balanced crust, flavorful sauce, and fresh toppings.
+* **Pizzeria Al Quadrifoglio:**  Reviewers mention the excellent pizza, quick service, and friendly staff.
+* **Pizzeria Antica Osteria Dazzo:**  Reviewers emphasize the amazing pizza with delicious ingredients, friendly service, and a wide selection of flavors.
+* **Crazy Pizza:**  Reviewers appreciate the woodburning oven, fresh products, variety of pizzas, and kind staff.
+* **Pizzalonga Away Ponte San Nicolò:**  Reviewers highlight the delicious and delicate pizza, fresh ingredients, and efficient service.
+* **pizzeria la poesia:**  Reviewers describe the pizza as one of the most delicious they've ever had, with a special ingredient: love.
+* **Pizzeria Pin Up:**  Reviewers mention the tasty and light dough, quality food, and kind staff.
+* **Pizzalonga Away Noventa Padovana:**  Reviewers praise the perfect base, delicious toppings, and angelic service.
+* **Antica Pizza:**  Reviewers describe the pizza as truly exceptional, comparing it to a luxurious item. 
+
+Based on the reviews, all of these places seem to offer delicious pizzas. 
+
+
+
+2. 
+Question: 
+
+Give the name, address and phone number of some good steak houses for a romantic dinner.
+
+Answer: 
+
+Here are some steak houses that might be good for a romantic dinner:
+
+* **Ristorante Vecchio Falconiere:** Via Umberto I, 31, 35122 Padova PD, Italy. Phone: +39 049 656544
+* **La Fiorentina:** Via G. Marconi, 123, 35020 Ponte San Nicolò PD, Italy. Phone: +39 049 816 4672
+* **Osteria Nonna Pina:** Via Roma, 65, 35027 Noventa Padovana PD, Italy. Phone: +39 049 830 6301 
+
+The reviews mention that Vecchio Falconiere has a friendly owner and cooks the steak on a table-sized grill. La Fiorentina is described as a nice place with a fireplace and good wine. Osteria Nonna Pina has a stylish interior and outdoor grill and serves the most delicious meat.
+
+
+3. 
+Question: 
+
+Give the name, address and phone number of the some good sandwich places?
+
+Answer: 
+
+Here are some good sandwich places based on the Google Maps reviews:
+
+* **Panini e bibite da Sandro e Eugenio**: 
+    * Address: Via Cardinale Callegari, 63, 35133 Padova PD, Italy
+    * Phone: +39 339 219 7526
+* **Paninaro**:
+    * Address: Via Messico, 46/53, 35127 Padova PD, Italy
+    * Phone: User to search online (phone number not available in the context) 
+* **DAL BAFFO**: 
+    * Address: Corso Stati Uniti, 18, 35127 Padova PD, Italy
+    * Phone: User to search online (phone number not available in the context) 
+* **Corner**:
+    * Address: Via Cattaro, 20, 35135 Padova PD, Italy
+    * Phone: +39 351 669 4354 
+
+
+4. 
+Question: 
+
+What are the most affordable but high-quality restaurants in City?
+
+Answer: 
+
+The provided reviews mention several affordable restaurants with high quality, but they don't specify the city. To answer your question, I need to know what city you're interested in. 
+
+
+5. 
+Question: 
+
+How can I make a roast beef sandwich at home?
+
+Answer:
+User to search online. 
+
+
+
+6.
+Question: 
+
+What is RAG?
+
+Answer:
+
+The provided Google Map reviews don't mention anything about "RAG".  You'll need to search online for more information. 
+ 
+
+7. 
+Question: 
+
+Explain Natural Language Processing
+
+Answer: 
+
+I can't answer that question. The context you provided is about restaurant reviews, and doesn't have any information about Natural Language Processing (NLP). 
+To learn about NLP, I recommend searching online for resources or asking me a question about NLP specifically. 
+
+
+### PROMPT 3 ###
+
+Your job is to use Google Map restaurants and bars reviews to help people find best places to go for a meal or a drink.
+Use the following information and reviews to answer the questions. if the context is not about restaurants,
+then kindly tell the user that you can only provide assistance and answer questions related to restaurants.
+If you don't know an answer based on the context, say you don't know. Answer context:
+
+
+1. 
+Question: 
+
+Where can I find delicious pizzas?
+
+Answer: 
+Here are some highly-rated pizza places based on the reviews:
+
+* **Officina Della Pizza:** This pizzeria is known for its delicious pizzas with quality ingredients and friendly service. Many reviewers call it exceptional and praise the kindness and availability of the staff.
+* **da Pino Padova:** This pizza restaurant boasts a warm and inviting atmosphere, with a focus on using high-quality ingredients.  Reviewers rave about the crust and the generous toppings, especially recommending the pepperoni pizza.
+* **Pizzeria Al Quadrifoglio:** This pizzeria is known for its excellent pizza, quick service, and friendly staff. Reviewers recommend it as a benchmark for other pizzas they order, highlighting the quality and consistency of the food.
+* **pizzeria la poesia:** This pizzeria is loved for its incredibly delicious pizzas, with reviewers claiming it's one of the best they've ever had. The owner is known for being humorous and speaks English, making it a welcoming place for everyone.
+* **Crazy Pizza:** This pizzeria uses a wood-burning oven and fresh ingredients to create a wide variety of pizzas. They offer different dough options, catering to customers with allergies. Reviewers praise their kindness, professionalism, and the overall quality of the pizzas.
+* **Pizzeria Pin Up:** This pizzeria is known for its tasty and light dough, quality ingredients, and friendly staff. Reviewers consistently mention the pleasure of ordering from them and the deliciousness of their pizzas.
+* **Pizzalonga Away Noventa Padovana:** This pizzeria is a favorite for its perfect base, flavorful toppings, and exceptional service. Reviewers consider it the best pizza they've ever had, praising the overall experience.
+* **Antica Pizza:** This pizzeria is highly recommended for its exceptional pizzas, with reviewers comparing the quality to a high-end product. It's a popular choice for residents of Montà and Sant'Ignazio. 
+
+
+
+2. 
+Question: 
+
+Give the name, address and phone number of some good steak houses for a romantic dinner.
+
+Answer: 
+
+Here are some steak houses in Padova that are highly rated on Google Maps, good for a romantic dinner:
+
+* **Ristorante Vecchio Falconiere:**
+    * Address: Via Umberto I, 31, 35122 Padova PD, Italy
+    * Phone: +39 049 656544
+    * Review: "This family-run restaurant services food with passion and the owner is so friendly, and cook the steak on table size. There are a big variety of steak, from local to Wangu beef, and different sizes as well." 
+
+* **Osteria BocaBona:**
+    * Address: Str. Pelosa, 4, 35136 Padova PD, Italy
+    * Phone: +39 049 871 3898
+    * Review: "Very welcoming restaurant, in a rustic and family style. Excellent choice of meats, matured and cooked very well. Excellent beef steak." 
+
+* **La Fiorentina:**
+    * Address: Via G. Marconi, 123, 35020 Ponte San Nicolò PD, Italy
+    * Phone: +39 049 816 4672
+    * Review: "I had dinner with a slice of beef cooked to perfection seasoned with parmesan rocket and balsamic vinegar and accompanied by a totally USELESS knife because that cut of meat was so tender. Delicious potatoes on the side and an excellent Montepulciano of which I won't deny having made an encore closed the meal."
+
+* **Osteria Nonna Pina:**
+    * Address: Via Roma, 65, 35027 Noventa Padovana PD, Italy
+    * Phone: +39 049 830 6301
+    * Review: "incredibly stylish interior, outdoor grill and the most delicious meat I have ever tasted. Meat with the right texture and every dish with good ingredients. beautiful glasses and delicious wine. great service and fast serving"
+
+
+
+3. 
+Question: 
+
+Give the name, address and phone number of the some good sandwich places?
+
+Answer: 
+
+Here are some good sandwich places based on the reviews:
+
+* **Panini e bibite da Sandro e Eugenio:**
+    * Address: Via Cardinale Callegari, 63, 35133 Padova PD, Italy
+    * Phone number: +39 339 219 7526 
+    * Reviews say it has some of the best sandwiches in Padua, with quality ingredients and fair prices. They're open late, so it's a great option if you're hungry after a night out.
+
+* **Paninaro:**
+    * Address: Via Messico, 46/53, 35127 Padova PD, Italy
+    * Phone number: Not available in the reviews.
+    * Reviews rave about the quality and deliciousness of the sandwiches, with many calling it the best they've ever had. The owner is also known for being kind and helpful.
+
+* **DAL BAFFO:**
+    * Address: Corso Stati Uniti, 18, 35127 Padova PD, Italy
+    * Phone number: Not available in the reviews.
+    * Reviews highlight the delicious porchetta sandwiches, the fast service, and the unique setting (an old bus converted into a bistro).
+
+* **Corner:**
+    * Address: Via Cattaro, 20, 35135 Padova PD, Italy
+    * Phone number: +39 351 669 4354
+    * Reviews praise the fresh, friendly atmosphere and the delicious sandwiches. 
+
+
+
+4. 
+Question: 
+
+What are the most affordable but high-quality restaurants in City?
+
+Answer: 
+
+I can only answer questions related to restaurants. Based on the reviews, here are some affordable and highly rated restaurants in Padova:
+
+* **Ristorante Locanda Munerato:**  This Italian restaurant is known for being "best bang for your buck". 
+* **Circolo RIST. Giusti:** This restaurant offers a fixed menu for 15€, which is considered good value for money.
+* **Da Pippo:** This Italian restaurant offers a full meal with wine, water, and coffee for 12€.
+* **Pizzeria Sotto Casa:** This pizzeria offers a good pizza and two drinks for 12 euros. 
+* **Bocca della Verità:** This pizza restaurant has good food and is pretty cheap. 
+
+These restaurants are all rated highly and are considered to be affordable options. 
+ 
+
+5. 
+Question: 
+
+How can I make a roast beef sandwich at home?
+
+Answer:
+
+I can only provide assistance and answer questions related to restaurants. I do not have information about how to make a roast beef sandwich at home. 
+
+
+6.
+Question: 
+
+What is RAG?
+
+Answer:
+
+I'm sorry, but I don't have any information about "RAG" in the context of the provided restaurant reviews.  My knowledge is limited to the information in the text. 
+
+
+7. 
+Question: 
+
+Explain Natural Language Processing
+
+Answer: 
+
+I can only provide assistance and answer questions related to restaurants. I don't know what Natural Language Processing is. 
